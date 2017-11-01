@@ -1,0 +1,31 @@
+Shooters gotta shoot
+
+Team Member 
+* Kyle Johnson
+* Prajit Ramaprasad
+* Travis Zier
+
+Project Description
+* Our group will be taking a log of NBA shots to determine how effective certain types of shots were and what factors affected those shots. 
+
+Research Questions 
+* Who is the worst defender in the league?
+* Who is the most clutch shooter in terms of game time?
+* Who is the worst shooter in the league?
+* Who has the most drastic split between home/away shooting?
+* What is the optimal shot in terms of several variables (distance/type of shot/touch time)
+
+Data Set Used
+* We will be using the NBA Shot Log found on Kaggle, that took shot data from the 2014/2015 NBA seasons. 
+
+Rough Breakdown of Tasks
+* Who is the worst defender in the league?
+   * Filter the data for only makes, groupby for 2’s or 3’s, and then aggregate data on defenders and the average distance from shot.   
+* Who is the most clutch shooter in terms of game time?
+   * Filter the data for 4th quarter, close margins, and game clock, and then take a look at the percentage of makes on shots for individual players.  
+* Who is the worst shooter in the league?
+   * Filter the data for only misses, groupby for 2’s or 3’s, and then aggregate data on shooters and the average distance from shot.   
+* Who has the most drastic split between home/away shooting?
+   * Groupby shots by home and away/2’s and 3’s, and then aggregate data for shot percentages
+* What is the optimal shot in terms of several variables (distance/type of shot/touch time)
+   * Take the made shots and then take the average for each variable.
